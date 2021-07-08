@@ -1,0 +1,57 @@
+.home-page {
+  background-color: whitesmoke;
+  
+}
+
+.home-container {
+    display: grid;
+  
+    justify-content: center;
+    color: gray;
+    padding-bottom: 20px;
+    
+    
+    
+}
+
+.plugHome {
+  color: gray;
+}
+
+.about {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+    text-align: center;
+    color: gray;
+    
+}
+
+.about > p > a {
+  
+    color: lightskyblue;
+  }
+
+  .about > p > a:hover {
+    color: grey;
+  }
+
+ 
+
+  .services {
+    border: solid 2px lightskyblue;
+    /* text-align: center; */
+   
+    background-color: gray;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    width: 280px;
+    height: 140px;
+    padding-left: 20px;
+
+    
+    
+  }
+
+  

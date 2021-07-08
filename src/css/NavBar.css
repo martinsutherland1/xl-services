@@ -1,0 +1,27 @@
+#navBar {
+    display: flex;
+    align-items: center;
+    border: solid 2px #5C5858;
+    background-color: gray;
+}
+
+.navLink {
+    padding:10px;
+}
+
+.navLink > a {
+    list-style: none;
+    text-decoration: none;
+    color: #5C5858;
+
+}
+
+.navLink {
+    list-style: none;
+}
+
+.header-top {
+    padding-left: 300px;
+  
+}
+
