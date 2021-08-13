@@ -3,6 +3,9 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import { Helmet } from 'react-helmet'
 import Home from '../components/Home'
 import NavBar from '../NavBar';
+import Contact from '../components/Contact';
+import Ideas from '../components/Ideas';
+import Gallery from '../components/Gallery';
 
 const MainContainer = () => {
 
@@ -18,9 +21,9 @@ const MainContainer = () => {
         <NavBar/>
         <Switch>
           <Route exact path="/" component={Home} />
-          {/* <Route path="/reviews" component={ReviewContainer} />
-          <Route path="/contact" component={contact} />
-          <Route path="/gallery" component={gallery} /> */}
+          <Route path="/socials" component={Contact} />
+          <Route path="/ideas" component={Ideas} />
+          <Route path="/gallery" component={Gallery} />
          
         </Switch>
         

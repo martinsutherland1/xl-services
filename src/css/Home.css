@@ -1,11 +1,7 @@
-.home-page {
-  background-color: whitesmoke;
-  
-}
+
 
 .home-container {
     display: grid;
-  
     justify-content: center;
     color: gray;
     padding-bottom: 20px;
@@ -14,44 +10,89 @@
     
 }
 
-.plugHome {
-  color: gray;
-}
-
 .about {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-    text-align: center;
-    color: gray;
+  display: grid;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  color: #333;
+  
     
 }
 
 .about > p > a {
   
-    color: lightskyblue;
+    color: #333;
   }
 
   .about > p > a:hover {
-    color: grey;
+    color: gold;
   }
 
  
-
-  .services {
-    border: solid 2px lightskyblue;
-    /* text-align: center; */
-   
-    background-color: gray;
-    color: whitesmoke;
-    padding-bottom: 20px;
-    width: 280px;
-    height: 140px;
-    padding-left: 20px;
-
+  .home-image {
+    width: 200px;
+    height: 200px;
+    border: solid 1px gold;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
     
+}
+  
+
+  .images {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #5C5858;
+    border: solid 1px gold; */
+    border-radius:10px;
+  }
+
+  .image-gallery {
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+
+  }
+
+  .image-gallery-child {
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    height: 100px;
+   
+  }
+
+  .image-gallery-2 {
+    padding-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+  }
+
+  .image-gallery-child-2 {
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    height: 100px;
     
   }
 
-  
+  .gallery-head {
+    text-align: center;
+    color:#5C5858;
+    
+  }
+
+  .home-header {
+    
+    color:#5C5858;
+  }
+
+  .image-dets {
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+ 

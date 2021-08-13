@@ -1,0 +1,142 @@
+.contact-box {
+    /* display: block;
+      margin-left: auto;
+      margin-right: auto; */
+      
+  
+  display: grid;
+  align-items: center;
+  
+      
+      
+      
+      
+        }
+
+        
+    
+    .contact-box > a {
+          text-decoration: none;
+          color: #5C5858;
+        }
+    
+    .contact-box > a:hover {
+          color: gold;
+        }
+    
+    .container {
+     
+        display: flex;
+        flex-direction: row;
+        
+        background:fixed;
+        
+    }
+    
+    #contact-head {
+      padding-top: 20px;
+      background:fixed;
+      text-align: center;
+      color: #5C5858;
+      
+      
+    }
+    
+    .at {
+      padding-top:10px;
+      color: whitesmoke;
+      font-size: larger;
+      
+    }
+    
+    .phone {
+      padding-top:10px;
+      color: whitesmoke;
+      font-size: larger;
+      
+    }
+    
+    .address {
+      padding-top:10px;
+      color: whitesmoke;
+      font-size: larger;
+      
+    }
+    
+    .socials {
+      
+      display: flex;
+      justify-content: center;
+      padding-bottom: 320px;
+    
+    }
+    
+    #facebook {
+      height: 60px;
+      width: 60px;
+      padding-right: 20px;
+    }
+    
+    
+    
+    #instagram {
+      height: 60px;
+      width: 60px;
+    }
+
+    .p-back {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    
+
+    .email-form {
+      text-align: center;
+      color: whitesmoke;
+      
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 40px;
+      border-radius:10px;
+     
+    }
+
+    .idea-box {
+      border-radius: 10px;
+      width: 52%;
+      height: 100px;
+      border:solid 1px whitesmoke;
+      /* box-shadow:0 0 15px 4px rgba(0,0,0,0.06); */
+      border-radius:10px;
+    }
+
+    .email-input {
+      width: 52%;
+      height: 20px;
+      border:solid 1px whitesmoke;
+      
+      border-radius:10px;
+    }
+
+    .btn-send {
+      background-color: whitesmoke;
+      color: #5C5858;
+      border:solid 1px whitesmoke;
+      border-radius:10px;
+      font-size: larger;
+      cursor: pointer;
+      
+    }
+
+    .header-email {
+      text-align: center;
+      color: #5C5858;
+    }
+
+    .header-contact {
+      
+      color:#5C5858;
+    }
+
+   
+    

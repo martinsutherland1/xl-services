@@ -1,12 +1,15 @@
 #navBar {
     display: flex;
     align-items: center;
-    border: solid 2px #5C5858;
-    background-color: gray;
+    
+   
+   
+    
 }
 
 .navLink {
     padding:10px;
+    border-bottom: 4px solid #5C5858;
 }
 
 .navLink > a {
@@ -19,9 +22,14 @@
 .navLink {
     list-style: none;
 }
+.navLink > a:hover {
+    color: gold;
+  }
 
 .header-top {
-    padding-left: 300px;
+    padding-left: 10px;
   
 }
+
+
 

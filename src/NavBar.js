@@ -8,12 +8,16 @@ import './css/NavBar.css';
 import { Link, useHistory } from "react-router-dom";
 import Logo from './components/Logo';
 
+
 const NavBar = (props) => {
   return (
     <header id="navBar">
       
 
-      
+      <div className="header-top">
+            <Logo/>
+        </div>
+        
         <li className="navLink">
           <Link to="/"><FontAwesomeIcon icon={faHome} className="plug"/> Home</Link>
         </li>
@@ -21,15 +25,13 @@ const NavBar = (props) => {
           <Link to="/gallery"><FontAwesomeIcon icon={faImages} className="plug"/> Gallery</Link>
         </li>
         <li className="navLink">
-          <Link to="/contact"><FontAwesomeIcon icon={faAddressBook} className="plug"/> Contact</Link>
+          <Link to="/socials"><FontAwesomeIcon icon={faAddressBook} className="plug"/> Socials</Link>
         </li>
         <li className="navLink">
-          <Link to="/reviews" ><FontAwesomeIcon icon={faStar} className="plug"/> Reviews</Link>
+          <Link to="/ideas" ><FontAwesomeIcon icon={faStar} className="plug"/> Ideas</Link>
         </li>
-        <div className="header-top">
-            <h1><Logo/></h1>
-        </div>
-
+        
+       
       
     </header>
   )
