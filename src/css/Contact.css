@@ -1,37 +1,23 @@
 .contact-box {
-    /* display: block;
-      margin-left: auto;
-      margin-right: auto; */
-      
-  
-  display: grid;
-  align-items: center;
-  
-      
-      
-      
-      
-        }
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-weight: bold;
+  }
 
         
     
-    .contact-box > a {
+    .contact-box > p > a {
           text-decoration: none;
           color: #5C5858;
         }
     
-    .contact-box > a:hover {
+    .contact-box > p > a:hover {
           color: gold;
+          font-weight: bold;
         }
     
-    .container {
-     
-        display: flex;
-        flex-direction: row;
-        
-        background:fixed;
-        
-    }
+    
     
     #contact-head {
       padding-top: 20px;
@@ -106,7 +92,7 @@
       width: 52%;
       height: 100px;
       border:solid 1px whitesmoke;
-      /* box-shadow:0 0 15px 4px rgba(0,0,0,0.06); */
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
       border-radius:10px;
     }
 
@@ -114,17 +100,18 @@
       width: 52%;
       height: 20px;
       border:solid 1px whitesmoke;
-      
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
       border-radius:10px;
     }
 
     .btn-send {
-      background-color: whitesmoke;
-      color: #5C5858;
+      background-color: #5C5858;
+      color: whitesmoke;
       border:solid 1px whitesmoke;
       border-radius:10px;
       font-size: larger;
       cursor: pointer;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
       
     }
 

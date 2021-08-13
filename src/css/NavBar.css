@@ -24,6 +24,7 @@
 }
 .navLink > a:hover {
     color: gold;
+    font-weight: bold;
   }
 
 .header-top {

@@ -28,16 +28,32 @@
 
   .about > p > a:hover {
     color: gold;
+    font-weight: bold;
   }
 
  
   .home-image {
     width: 200px;
-    height: 200px;
+    height: 250px;
     border: solid 1px gold;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     border-radius:10px;
+    transition: transform .2s;
     
+}
+
+.home-image:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+ 
+
+.header-image {
+  width:20px;
+  height: 20px;
+  border-radius: 2px;
 }
   
 
@@ -58,8 +74,9 @@
   }
 
   .image-gallery-child {
-    flex: 1 0 21%; /* explanation below */
-    margin: 5px;
+    /* flex: 1 0 21%;  */
+    flex: 2 1 auto;
+    margin: 2px;
     height: 100px;
    
   }
@@ -73,7 +90,8 @@
   }
 
   .image-gallery-child-2 {
-    flex: 1 0 21%; /* explanation below */
+    /* flex: 1 0 21%;  */
+    flex: 2 1 auto;
     margin: 5px;
     height: 100px;
     

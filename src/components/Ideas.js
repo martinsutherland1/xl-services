@@ -1,7 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import '../css/Contact.css';
-
+import Logo from '../images/logo.png';
 
 
 export default function Ideas() {
@@ -22,7 +22,7 @@ export default function Ideas() {
 
     <div>
         <div className="header-email">
-        <h2>SEND YOUR IDEAS HERE</h2>
+        <h2><img  className="header-image" src={Logo} alt="2" /> SEND YOUR IDEAS HERE <img  className="header-image" src={Logo} alt="2" /></h2>
     <p className="p-back">We will aim to get back to you within 24 hours.</p>
         </div>
     
@@ -43,7 +43,7 @@ export default function Ideas() {
         </div>
         <br></br>
         <div >
-        <textarea className="idea-box" name="message" placeholder="Idea"/>
+        <textarea className="idea-box" name="message" placeholder="Ideas"/>
         </div>
         <br></br>
         <div>
