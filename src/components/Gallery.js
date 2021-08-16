@@ -25,104 +25,132 @@ const Gallery = () => {
 
     return (
         <main>
-        <h2 className="gallery-head"><img  className="header-image" src={Logo} alt="2" /> GALLERY <img  className="header-image" src={Logo} alt="2" /></h2>
-        <p className="gallery-head">You will find all the details for our items here.</p>
-        <div className="image-gallery">
-            <div className="image-gallery-child">
-            <img className="home-image" src={WineRack} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
+            <h2 className="gallery-head"><img className="header-image" src={Logo} alt="2" /> GALLERY <img className="header-image" src={Logo} alt="2" /></h2>
+            <p className="gallery-head">You will find all the details for our items here.</p>
+            <div className="image-gallery">
+                <div className="image-gallery-child">
+                    <img className="home-image" src={wooden} alt="1" />
+                    <p className="image-dets">£25.00 - Item:001</p>
+                </div>
+
+
+                <div className="image-gallery-child">
+                    <img className="home-image" src={tap} alt="1" />
+                    <p className="image-dets">£40.00 - Item:002</p>
+                </div>
             </div>
 
-
-            <div className="image-gallery-child">
-            <img className="home-image" src={tap} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
-            </div>
-        </div>
-
-        <div className="image-gallery-2">
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={Burner} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
-            </div>
+            <div className="image-gallery-2">
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={Burner} alt="1" />
+                    <p className="image-dets">£25.00 - Item:003</p>
+                </div>
 
 
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={desk} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
-            </div>
-        </div>
-
-        <div className="image-gallery-2">
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={pipe} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={desk} alt="1" />
+                    <p className="image-dets">£28.00 - Item:004</p>
+                </div>
             </div>
 
-
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={WineRack} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
-            </div>
-        </div>
-
-        <div className="image-gallery-2">
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={copperShade} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
-            </div>
+            <div className="image-gallery-2">
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={pipe} alt="1" />
+                    <p className="image-dets">£30.00 - Item:005</p>
+                </div>
 
 
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={jar} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
-            </div>
-        </div>
-
-        <div className="image-gallery-2">
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={Aluminium} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={WineRack} alt="1" />
+                    <p className="image-dets">£30.00 - Item:006</p>
+                </div>
             </div>
 
-
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={BrassLamp} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
-            </div>
-        </div>
-
-        <div className="image-gallery-2">
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={CandleEffect} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
-            </div>
+            <div className="image-gallery-2">
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={copperShade} alt="1" />
+                    <p className="image-dets">£32.00 - Item:007</p>
+                </div>
 
 
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={deskStretch} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
-            </div>
-        </div>
-
-        <div className="image-gallery-2">
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={jackD} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={jar} alt="1" />
+                    <p className="image-dets">£30.00 - Item:008</p>
+                </div>
             </div>
 
+            <div className="image-gallery-2">
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={Aluminium} alt="1" />
+                    <p className="image-dets">£28.00 - Item:009</p>
+                </div>
 
-            <div className="image-gallery-child-2">
-            <img className="home-image" src={jackD2} alt="1" />
-            <p className="image-dets">£25.00 - Wine Rack Lamp</p>
+
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={BrassLamp} alt="1" />
+                    <p className="image-dets">£40.00 - Item:010</p>
+                </div>
             </div>
-        </div>
 
+            <div className="image-gallery-2">
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={CandleEffect} alt="1" />
+                    <p className="image-dets">£25.00 - Item:011</p>
+                </div>
+
+
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={deskStretch} alt="1" />
+                    <p className="image-dets">£25.00 - Item:012</p>
+                </div>
+            </div>
+
+            <div className="image-gallery-2">
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={jackD} alt="1" />
+                    <p className="image-dets">£30.00 - Item:013</p>
+                </div>
+
+
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={jackD2} alt="1" />
+                    <p className="image-dets">£30.00 - Item:014</p>
+                </div>
+            </div>
+
+            <div className="image-gallery-2">
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={metal} alt="1" />
+                    <p className="image-dets">£25.00 - Item:015</p>
+                </div>
+
+
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={pebble} alt="1" />
+                    <p className="image-dets">£28.00 - Item:016</p>
+                </div>
+            </div>
+
+            <div className="image-gallery-2">
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={woodenHand} alt="1" />
+                    <p className="image-dets">£25.00 - Item:017</p>
+                </div>
+
+
+                <div className="image-gallery-child-2">
+                    <img className="home-image" src={slimBrass} alt="1" />
+                    <p className="image-dets">£30.00 - Item:018</p>
+                    <br></br>
+                </div>
+            </div>
+            
+            
         </main>
-      
-       
+
+
     )
-  
+
 
 }
 

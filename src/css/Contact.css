@@ -94,6 +94,7 @@
       border:solid 1px whitesmoke;
       box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
       border-radius:10px;
+      font-style: italic;
     }
 
     .email-input {
@@ -102,6 +103,7 @@
       border:solid 1px whitesmoke;
       box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
       border-radius:10px;
+      font-style: italic;
     }
 
     .btn-send {

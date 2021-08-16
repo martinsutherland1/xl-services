@@ -60,7 +60,7 @@ const Home = () => {
 <h2 className="home-header"><img  className="header-image" src={Logo} alt="2" /> WHAT WE DO <img  className="header-image" src={Logo} alt="2" /></h2>
         <p>At XL Bespoke Designs we create unique furniture and lamps from recycled materials, these make our products unconventional and full of character. We encourage our customers to get involved and inspire us with their creative mindsets. Together we can create products with meaning. </p>
         
-        <p>For a free quote get in touch or to make a purchase click <a href="/contact">here.</a></p>
+        <p>For a free quote get in touch or to make a purchase click <a href="/socials">here.</a></p>
 
         <div className="images">
         <Carousel slides={slides} autoplay={false} interval={4000}/>
